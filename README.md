@@ -2,24 +2,6 @@
 
 A comprehensive collection of specialized AI agents designed to accelerate and enhance every aspect of rapid development. Each agent is an expert in their domain, ready to be invoked when their expertise is needed.
 
-## 📥 Installation
-
-1. **Download this repository:**
-
-   ```bash
-   git clone https://github.com/contains-studio/agents.git
-   ```
-
-2. **Copy to your Claude Code agents directory:**
-
-   ```bash
-   cp -r agents/* ~/.claude/agents/
-   ```
-
-   Or manually copy all the agent files to your `~/.claude/agents/` directory.
-
-3. **Restart Claude Code** to load the new agents.
-
 ## 🚀 Quick Start
 
 Agents are automatically available in Claude Code. Simply describe your task and the appropriate agent will be triggered. You can also explicitly request an agent by mentioning their name.
@@ -38,7 +20,7 @@ Agents are automatically available in Claude Code. Simply describe your task and
 Agents are organized by department for easy discovery:
 
 ```
-contains-studio-agents/
+sub-agents/
 ├── design/
 │   ├── brand-guardian.md
 │   ├── ui-designer.md
@@ -82,7 +64,6 @@ contains-studio-agents/
 │   ├── tool-evaluator.md
 │   └── workflow-optimizer.md
 └── bonus/
-    ├── joker.md
     └── studio-coach.md
 ```
 
@@ -147,7 +128,6 @@ contains-studio-agents/
 ## 🎁 Bonus Agents
 
 - **studio-coach** - Rally the AI troops to excellence
-- **joker** - Lighten the mood with tech humor
 
 ## 🎯 Proactive Agents
 
